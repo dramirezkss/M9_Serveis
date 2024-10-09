@@ -49,7 +49,7 @@ public class Rot13 {
         System.out.println("Escribe una palabra en minusculas o mayusculas");
         String paraula = entrada.nextLine();
         String textoCifrado = xifraRot13(paraula);
-        String textoDescifrado = desxifraRot13(paraula);
+        String textoDescifrado = paraula;
 
         System.out.println("Texto original: " + paraula);
         System.out.println("Texto cifrado: " + textoCifrado);
